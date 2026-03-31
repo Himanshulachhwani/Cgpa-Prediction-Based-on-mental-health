@@ -24,20 +24,21 @@ This project collects data on the mental well-being and lifestyle of students wh
 7) This is the entire process by which this model works, expalained.
 
 ## How to run the program:
-1) Clone the Repository: Use the git clone command in your terminal to get the repository onto your local machine.
-@ git clone https://github.com @
-Navigate to the Directory: Change your current directory to the cloned repository's location.
-bash
-cd your-repo-name
-Convert the Notebook to a Python Script: Use jupyter nbconvert to convert the .ipynb file into a standard .py file. This command will execute all cells in the notebook and save the code structure to a Python script.
-bash
-jupyter nbconvert --to script your_notebook_file.ipynb
-This command creates a file named your_notebook_file.py in the same directory.
-Modify the Python Script (Optional but Recommended): Open the generated your_notebook_file.py in a text editor. The converted script will contain all the code from your notebook cells. Ensure the function you want to run is properly defined. At the end of the script, add a line to call your specific function.
-Example: If your function is named my_function, add the following line to the bottom of the .py file:
-python
-if __name__ == "__main__":
-    my_function()
-Execute the Function via the Command Line: Run the Python script from your terminal using the python command.
-bash
-python your_notebook_file.py
+
+### Direct Install
+1) Clone or download the repository.
+2) Open AQI_Prediction.ipynb in Jupyter Notebook.
+3) Run the file
+
+### Command Line
+1) Clone Repository
+    'git clone <GITHUB_REPO_URL>
+     cd <REPO_DIRECTORY>'
+2) Install Required Libraries
+    'pip install pandas scikit-learn'
+3) Temporary convert to python file
+   'jupyter nbconvert --to python your_notebook.ipynb'
+4) Run the file
+   'from python import predict()'
+
+# THANK YOU!
