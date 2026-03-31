@@ -36,8 +36,8 @@ This project collects data on the mental well-being and lifestyle of students wh
 
 ### Command Line
 1) Clone Repository
-    `git clone <GITHUB_REPO_URL>
-     cd <REPO_DIRECTORY>`
+    `git clone <GITHUB_REPO_URL>`
+     `cd <REPO_DIRECTORY>`
 2) Install Required Libraries
     `pip install pandas scikit-learn`
 3) Temporary convert to python file
