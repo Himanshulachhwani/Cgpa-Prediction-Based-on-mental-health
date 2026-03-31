@@ -1,2 +1,2 @@
-# Cgpa-Prediction-Based-on-mental-health
+# Student_Mental_Health-Prediction-Model
 
