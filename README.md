@@ -6,9 +6,13 @@ This program can help students realise that how and to what consequences their c
 
 ## Dataset
 **File**: https://www.kaggle.com/datasets/sehaj1104/student-mental-health-and-burnout-dataset
+
 **Source**: Kaggle
+
 **Description**: Mental Health and Academic Records of students
+
 **Features Used**: Age, Daily study hours, Daily sleep hours, Screen time hours, Anxiety score, Depression score, Academic pressure score, Financial stress score, Social support score, Physical activity hours, Attendance percentage
+
 **Target**: CGPA
 
 ## What the Project does?
